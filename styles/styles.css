@@ -1,0 +1,354 @@
+/* start font */
+@impor url('https://font.googleapis.com/css?family=Roboto');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+/* end font */
+
+/* start Body */
+body {background-color:white;
+   color:black;
+   font-family: Roboto, Helvetica, arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.5em;
+   margin: 5;
+   padding: 5;
+   background-image: 
+}
+@media only screen and (max-width:
+600px){
+    body{
+        font-size: 13px;
+        color:rgb(19, 191, 243);
+
+    }
+    
+@media only screen and (max-width:
+600px){
+    body{
+        font-size: 15px;
+        color:blue;
+    }
+}
+.menu-primer li{
+    border-right: 1px solid #d1d5da;
+    width: 100%;
+}
+}
+
+/* end body */
+
+/* start debug */
+.bg-blue {
+    background-color: rgb(0, 183, 255)
+}
+.bg-green {
+    background-color:rgb(0, 183, 255)
+}
+.bg-black {
+    background-color:white;
+}
+/* end debug */
+
+/* start container */
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    
+}
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+}
+/* end container */
+
+/* start logo */
+.logo{
+    text-align: center;
+}
+/* end logo */
+
+/* start menu premier */
+.menu-primer ul{
+    background-color:white;
+    border-radius: 4px;
+    box-shadow: (
+    0 3px 5px -1px white
+    0 6px 10px 0 blue
+    0 1px 18px 0 blue)
+}
+.menu-primer li{
+    border-right: 1px solid black;
+    display: inline-block;
+}
+.menu-primer a{
+    color:black;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+/* end menu premier */
+/* start anchor / hyperlink */
+a:link,
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+a:hover
+a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+/* end anchor / hyperlink */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28;
+}
+h2 {
+    font-size: 24;
+}
+h3 {
+    font-size: 18;
+}
+h4 {
+    font-size: 16;
+}
+h5 {
+    font-size: 14;
+}
+h6 {
+    font-size: 13;
+}
+
+/* end heading */
+
+/* start jumbotron */
+.jumbotron{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20x;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+/* end main */
+
+/* start box */
+.box-heading {
+    background-color: rgb(0, 183, 255);
+    border: 1px solid black;
+    border-radius: 3px 3px 0 0;
+    margin: 0px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi-left{
+    background-color: white;
+    border-top: 0;
+    margin: 5px auto;
+    padding: 34px 10px;
+    height: 100%;
+    text-transform: uppercase;
+    float: left;
+    width: 96.5%;
+    border: 1px solid black;
+    border-radius: 3px 3px 0 0;
+}
+.box-isi-left{
+    background-color:white;
+    border-top: 0;
+    margin: 5px auto;
+    padding: 34px 10px;
+    height: 100%;
+    text-transform: uppercase;
+    float: left;
+    width: 96,5%;
+    border: 1px solid black;
+    border-radius: 3px 3px 0 0;
+ 
+}
+
+
+/* end box */
+
+/* start menu sekunder*/
+.menu-sekunder {
+    background-color:black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 30%;
+}
+
+.menu-sekunder-two { 
+    width: 30%;
+    float: left;
+    padding: 10px 0;
+    margin: 5px ;
+}
+
+.menu-sekunder-three {
+    width: 30%;
+    float: right;
+    padding: 10px 0;
+    margin: 5px ;
+       
+}
+/* end menu sekunder*/
+
+/* start effect */
+    figure.snip1311 {
+        font-family: 'Raleway', Arial, sans-serif;
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 230px;
+        max-width: 23%;
+        max-height: 220px;
+        width: 100%;
+        color: #ffffff;
+        text-align: left;
+        background-color: white;
+        font-size: 16px;
+        -webkit-perspective: 50em;
+        perspective: 50em;
+        display: inline-block;
+    }
+    figure.snip1311 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+    }
+    figure.snip1311 img {
+        max-width: 100%;
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+        backface-visibility: hidden;
+    }
+    figure.snip1311 figcaption {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        -webkit-transform: rotateX(90deg) translate(0%, -50%);
+        transform: rotateX(90deg) translate(0%, -50%);
+        -webkit-transform-origin: 0% 0%;
+        -ms-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        z-index: 1;
+        opacity: 0;
+        padding: 0 30px;
+        display: inline-block
+    }
+    figure.snip1311 h3,
+    figure.snip1311 p {
+        line-height: 1.5em;
+    }
+    figure.snip1311 h3 {
+        margin: 0;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    figure.snip1311 p {
+        font-size: 0.8em;
+        font-weight: 500;
+        margin: 0 0 15px;
+    }
+    figure.snip1311 .read-more {
+        border: 2px solid #ffffff;
+        padding: 0.5em 1em;
+        font-size: 0.8em;
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+    }
+    figure.snip1311 .read-more:hover {
+        background-color: #ffffff;
+        color: white;
+    }
+    figure.snip1311:hover img,
+    figure.snip1311.hover img {
+        -webkit-transform: rotateX(-180deg);
+        transform: rotateX(-180deg);
+        opacity: 0;
+        -webkit-transition-delay: 0;
+        transition-delay: 0;
+        display: inline-block
+        
+    }
+    figure.snip1311:hover figcaption,
+    figure.snip1311.hover figcaption {
+        -webkit-transform: rotateX(0deg) translate(0, -50%);
+        transform: rotateX(0deg) translate(0, -50%);
+        opacity: 1;
+        -webkit-transition-delay: 0.35s;
+        transition-delay: 0.35s;
+        display: inline-block
+    }
+    /* Demo purposes only */
+    body {
+        background-color: white;
+    }
+  /* end effect */
+/* start untuk hp*/
+@media only screen and (max-width: 480px){
+    .main-home-one {
+        /* float: left; */
+        width: 100%;
+    }
+    .main-home-two {
+       /* float: right; */
+        width: 100%;
+    }
+}
+/* end untuk hp*/
